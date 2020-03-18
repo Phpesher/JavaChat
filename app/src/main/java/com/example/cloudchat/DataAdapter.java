@@ -15,7 +15,7 @@ public class DataAdapter extends RecyclerView.Adapter<ViewHolder> {
     private ArrayList<String> messages;
     private LayoutInflater inflater;
 
-    public DataAdapter(Context context, ArrayList<String> messages) {
+    DataAdapter(Context context, ArrayList<String> messages) {
         this.messages = messages;
         this.inflater = LayoutInflater.from(context);
     }
